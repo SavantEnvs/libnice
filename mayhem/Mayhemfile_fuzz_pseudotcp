@@ -1,0 +1,9 @@
+project: savantenvs/libnice
+target: fuzz_pseudotcp
+testsuite:
+  - https://$MAYHEM_DOMAIN/$MAYHEM_PROJECT/$MAYHEM_TARGET/testsuite.tar
+  - file://mayhem/fuzz_pseudotcp/testsuite
+cmds:
+  - cmd: /mayhem/fuzz_pseudotcp
+    libfuzzer: true
+    timeout: 10

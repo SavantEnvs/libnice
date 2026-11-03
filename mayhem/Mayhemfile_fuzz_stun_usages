@@ -1,0 +1,9 @@
+project: savantenvs/libnice
+target: fuzz_stun_usages
+testsuite:
+  - https://$MAYHEM_DOMAIN/$MAYHEM_PROJECT/$MAYHEM_TARGET/testsuite.tar
+  - file://mayhem/fuzz_stun_usages/testsuite
+cmds:
+  - cmd: /mayhem/fuzz_stun_usages
+    libfuzzer: true
+    timeout: 10

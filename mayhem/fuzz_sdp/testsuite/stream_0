@@ -1,0 +1,6 @@
+m=audio 54609 ICE/SDP
+a=ice-ufrag:AbCd
+a=ice-pwd:0123456789abcdefghijkl
+a=candidate:1 1 UDP 2013266431 192.0.2.10 54609 typ host
+a=candidate:2 1 UDP 1677722111 203.0.113.7 61000 typ srflx raddr 192.0.2.10 rport 54609
+a=candidate:3 2 UDP 2013266430 192.0.2.10 54610 typ host

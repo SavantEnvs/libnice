@@ -1,0 +1,6 @@
+m=video 9 ICE/SDP
+a=ice-ufrag:Zy
+a=ice-pwd:pwdpwdpwdpwdpwdpwdpwdpwd
+a=candidate:4 1 TCP 1518280447 2001:db8::5 9 typ host tcptype active
+a=candidate:5 1 UDP 100 198.51.100.4 3478 typ relay raddr 203.0.113.7 rport 61000
+a=candidate:6 1 UDP 90 198.51.100.4 3479 typ prflx

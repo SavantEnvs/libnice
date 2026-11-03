@@ -1,0 +1,19 @@
+stun-len 108
+stun-msg 000100582112a442b7e7a701bc34d686fa87dfae802200105354554e207465737420636c69656e74002400046e0001ff80290008932ff9b151263b36000600096576746a3a68367659000000000800147907c2d2edbfea480e4c76d82962d5c3742af9e380280004e352928d
+stun-validate 0 class=0 method=1
+stun-validate-tampered 3
+stun-username evtj:h6vY
+stun-priority 1845494271
+stun-creds-md5 8493fbc53ba582fb4c044c456bdc40eb
+addr-v4-ok 1
+addr-v4 192.0.2.10 port=3478 ipver=4
+addr-v6-ok 1
+addr-v6 2001:db8::1 ipver=6 private=0
+addr-private 1
+addr-bad 0
+addr-equal 1
+addr-equal-port 0
+sdp-cand 192.0.2.10 54609 type=1 transport=0 prio=2013266431 comp=1 foundation=1
+sdp-gen a=candidate:1 1 UDP 2013266431 192.0.2.10 54609 typ srflx raddr 10.0.0.2 rport 4000
+pseudotcp-received 40000
+pseudotcp-sha1 bda12823219d430593ab1f6215574bd033186ce8
